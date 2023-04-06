@@ -47,6 +47,15 @@ section:nth-child(even){
     background-color: #f8f8f8;
 }
 
+.container{
+    padding: 50px 0;
+}
+
+.section__title{
+    margin-bottom: 20px;
+}
+
+
 /*Nav bar*/
 
 nav{
@@ -156,9 +165,33 @@ padding-top: 24px;
 flex: 1;
 display: flex;
 align-items: center;
+margin-bottom: 100px 0;
 }
 
 .about-me__img{
     width: 100%;
     
+}
+
+
+/* Proficient Languages*/
+
+.language__img{
+    width: 100%;
+    max-width: 100px;
+}
+
+.language{
+    width: 25%;
+}
+
+.language__img--wrapper{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.language__list{
+    display: flex;
+    width: 100%;
 }
