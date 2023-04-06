@@ -43,6 +43,10 @@ li{
     color: #ea1d80;
 }
 
+section:nth-child(even){
+    background-color: #f8f8f8;
+}
+
 /*Nav bar*/
 
 nav{
